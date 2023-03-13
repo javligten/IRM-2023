@@ -1,5 +1,7 @@
 # IRM-2023
 
+Research Question 
+
 Topic: Spelling proficiency in Dutch tweets
 
 Problem statement: Casual social media platforms such as Twitter, Instagram and TikTok allow for a lot of spelling mistakes.
