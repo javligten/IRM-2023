@@ -1,26 +1,14 @@
 # IRM-2023
 
-Research Question 
+Abstract:
+This research aims to compare the amount of spelling errors made on Dutch Twitter comparing 2011 to 2021. Specifically looking at the usage of "kado" (which is the wrong spelling of the word) and "cadeau" which is the correct spelling. As more Dutch people have become highly-educated compared to the years before (Centraal Bureau voor de Statistiek, 2022), it would be expected that the amount of spelling errors has decreased. Based on that the hypothesis is that "kado" is used less frequently in 2021 compared to 2011. The research will be done by taking at set amount of Dutch tweets from both 2011 and 2021 and then comparing the amount that "kado" and "cadeau" are used in 2011 versus 2021 relatively. For this, a Python program will be created that counts the amount of occurrences of both "kado" and "cadeau" from a file (which will later consist of the Twitter data). The program will then also compare both frequencies of "kado" and "cadeau" to each other and tell us which word was more used with their percentages of the total amount of tweets mentioning either "kado" or "cadeau". Based on that we can conclude whether the hypothesis was correct.
 
-Topic: Spelling proficiency in Dutch tweets
+Background information:
+Have not yet been able to find a scientific paper that discusses the same topic, but will be included in this as soon as possible.
 
-Problem statement: Casual social media platforms such as Twitter, Instagram and TikTok allow for a lot of spelling mistakes.
+Method:
+Make a Python script that reads the data file and counts every occurence of the word "kado" or "cadeau" and compares both frequencies to the total amount of tweets mentioning either of the two (total occurences of "kado" + total occurences of "cadeau"). Looking at the graph from cbs.nl, their data goes up until 2021. We will therefore take that same year and compare it to exactly a decade ago (2011) as the Twitter data goes back to at most 2010. We'll take a set amount of tweets from both years (as much as possible without the dataframe being too large) and then compare the frequency of both words in % of the total amount of tweets mentioning either "kado" or "cadeau" in each year. The Dutch tweets will be taken from the month of December, as it would be expected that the words "kado" and "cadeau" will be more used during the christmas season.
 
-Question: Are Dutch people getting better or worse at spelling, as more people are highly educated?
-
-Research question: Is the spelling error “kado” more or less common on Dutch Twitter in 2021 compared to 2011?
-
-Dependent variable: Frequency (“kado” vs. “cadeau”)
-Independent variable: Time (2011 vs. 2021)
-
-Method: Looking at the graph from cbs.nl their data goes up until 2021, so I thought I would take the same year and compare it to exactly a decade ago (2011). I’m going to take a set amount of Dutch tweets from both years and I will compare the frequency of both words in % of the total amount of tweets in each year.
-
-Significance: To see whether the notion of increasingly more Dutch people being highly educated aligns with the amount of spelling mistakes made on Dutch Twitter. This could be a possible segue into further research on the topic to improve Dutch spelling.
-
-Hypothesis: There will be fewer mentions of “kado” in 2021 compared to 2011, since more Dutch people are highly educated compared to the years before.
-
-Limitations: The environment of Twitter has changed a lot over the years from a formal/scientific platform to more of a casual social media platform, which could have an influence on the amount of spelling errors on the platform.
-
-Source: https://www.cbs.nl/nl-nl/longread/statistische-trends/2022/steeds-meer-hoogopgeleiden-in-nederland-wat-voor-beroep-hebben-ze-?onepage=true
-
+Sources:
+Centraal Bureau voor de Statistiek. (2022, October 17). Meer hoogopgeleiden en beroepsniveau steeg mee. Centraal Bureau Voor De Statistiek. https://www.cbs.nl/nl-nl/nieuws/2022/42/meer-hoogopgeleiden-en-beroepsniveau-steeg-mee
 
