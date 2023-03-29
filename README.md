@@ -9,13 +9,15 @@ Another research done by Lieke Verheijen has looked at whether the usage of What
 Method:
 Make a Python script that reads the data file and counts every occurence of the word "kado" or "cadeau" and compares both frequencies to the total amount of tweets mentioning either of the two (total occurences of "kado" + total occurences of "cadeau"). Looking at the graph from cbs.nl, their data goes up until 2021. We will therefore take that same year and compare it to 2012. We'll take a set amount of tweets (1000) from both years and then compare the frequency of both words of the total amount of tweets mentioning either "kado" or "cadeau" in each year. The Dutch tweets will be taken from the month of December, as it would be expected that the words "kado" and "cadeau" will be more used during the christmas season.
 
-To acquire the data files that we used for this researche, use these Linux commands in Karora:
+To acquire the data files that we used for this research, use these Linux commands in Karora:
 
 zless /net/corpora/twitter2/Tweets/2012/12/20121225\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab text | grep -E -i -w 'kado|cadeau' | head -1000 > christmas2012.txt
 
 and
 
 zless /net/corpora/twitter2/Tweets/2021/12/20211225\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab text | grep -E -i -w 'kado|cadeau' | head -1000 > christmas2021.txt
+
+To get the exact results used for the research, run both christmas2012.py and christmas2021.py and compare them to each other.
 
 Sources:
 Centraal Bureau voor de Statistiek. (2022, October 17). Meer hoogopgeleiden en beroepsniveau steeg mee. Centraal Bureau Voor De Statistiek. https://www.cbs.nl/nl-nl/nieuws/2022/42/meer-hoogopgeleiden-en-beroepsniveau-steeg-mee
