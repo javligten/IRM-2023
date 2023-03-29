@@ -12,7 +12,7 @@ words = text.strip()
 count_incorrect = words.count(incorrect)
 count_correct = words.count(correct)
 total = words.count(incorrect) + words.count(correct)
-result = count_incorrect/total , count_correct/total
+result = count_incorrect/total, count_correct/total
 difference = count_correct - count_incorrect
 
 """Prints the comparison of both words in frequency""" 
@@ -21,4 +21,4 @@ if count_incorrect > count_correct:
 elif count_correct > count_incorrect:
     print(f"'{incorrect}' has a lower usage frequency than '{correct}'", result, "with a difference of:", difference)
 else:
-    print(f"'{incorrect}' and '{correct}' have the same usage frequency", result)
+    print(f"'{incorrect}' and '{correct}' have the exact same usage frequency", result), difference
