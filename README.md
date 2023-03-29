@@ -12,7 +12,9 @@ Make a Python script that reads the data file and counts every occurence of the 
 To acquire the data files that we used for this researche, use these Linux commands in Karora:
 
 zless /net/corpora/twitter2/Tweets/2012/12/20121225\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab text | grep -E -i -w 'kado|cadeau' | head -1000 > christmas2012.txt
+
 and
+
 zless /net/corpora/twitter2/Tweets/2021/12/20211225\:*.out.gz  | /net/corpora/twitter2/tools/tweet2tab text | grep -E -i -w 'kado|cadeau' | head -1000 > christmas2021.txt
 
 Sources:
